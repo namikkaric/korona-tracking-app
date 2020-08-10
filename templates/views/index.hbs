@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korona Tracking App</title>
+    <link rel="stylesheet" href="./css/styles.css">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/52bc416903.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="lang">
+        <img id="langGb" src="/gb.png" alt="gb.png">
+        <img id="langBa" src="/ba.png" alt="ba.png">
+    </section>
+
+    {{>header}}
+
+    <div class="autocomplete">
+    <form autocomplete="off" action="">
+        <input id="nesto" placeholder="Location">
+        <button id="btn-search">Search</button>
+    </form>
+    </div>
+
+    <p id="worldTotal"></p>
+
+    <section id='results'>
+        <div id="totalCasesDiv">
+            <span class="virus"><i class="fas fa-virus"></i></span>
+            <p class="totalCases">Total cases: </br></br><span id="totalCases"></span></p>
+        </div>
+        <div id="totalRecoveredDiv">
+            <span class="virusSlash"><i class="fas fa-virus-slash"></i></span>
+            <p class="totalRecovered">Total recovered: </br></br><span id="totalRecovered"></span></p>
+        </div>
+        <div id="totalDeathsDiv">
+            <span class="skull"><i class="fas fa-skull-crossbones"></i></span>
+            <p class="totalDeaths">Total deaths: </br></br><span id="totalDeaths"></span></p>
+        </div>
+    </section>
+    <p id="errorMessage"></p>
+
+    <script src="./js/app.js"></script>
+
+</body>
+</html>
