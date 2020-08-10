@@ -8,7 +8,7 @@
 </p>
 <p align="center">
     <a href="https://github.com/namikkaric/korona-tracking-app/commits/master">
-      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/namikkaric/taskee-app">
+      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/namikkaric/korona-tracking-app">
     <a href="https://github.com/namikkaric/korona-tracking-app/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr-raw/namikkaric/taskee-app">
     <a href="https://github.com/namikkaric/korona-tracking-app/contributors">
